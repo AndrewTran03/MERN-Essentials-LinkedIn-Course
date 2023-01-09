@@ -33,8 +33,8 @@ mongoose.connect("mongodb://localhost:4000", {
 });
 
 
-//To avoid depreciation warnings... *suggested by complier)
-mongoose.set("strictQuery", true);
+//To avoid depreciation warnings... *suggested by complier*)
+mongoose.set("strictQuery", false);
 
 //Body-Parser Setup
 app.use(bodyParser.urlencoded({ extended: true }));
